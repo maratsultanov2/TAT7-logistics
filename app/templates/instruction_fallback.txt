@@ -1,0 +1,3 @@
+Накладная №{{ payload.doc_number }}
+Товар {{ item.sku }}: {{ item.qty }} шт., место {{ stock_data[item.sku].location }}
+Документы готовы.
