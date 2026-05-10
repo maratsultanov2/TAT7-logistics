@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  tat7-logistics:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DEMO_MODE=true
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
