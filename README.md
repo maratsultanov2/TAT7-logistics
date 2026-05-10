@@ -1,5 +1,4 @@
-# TAT7-logistics
-Когерентная логистика: 1С + Excel + TAT-7 + GigaChat + Битрикс24 + Честный знак
+
 # TAT-7 Logistics
 
 Когерентная логистика: 1С + Excel + TAT-7 + GigaChat + Битрикс24 + Честный знак
