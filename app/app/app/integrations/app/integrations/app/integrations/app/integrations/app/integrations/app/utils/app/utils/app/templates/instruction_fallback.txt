@@ -1,0 +1,5 @@
+Накладная №{{ payload.doc_number }} ({{ payload.customer }})
+{% for item in payload.items %}
+Товар {{ item.sku }}: {{ item.qty }} шт., место {{ stock_data[item.sku].location }}
+{% endfor %}
+Документы готовы к отгрузке.
